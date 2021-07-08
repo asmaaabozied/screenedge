@@ -1,0 +1,44 @@
+body,.companies
+{
+    direction: rtl;
+    text-align: right;
+}
+.navbar-expand-lg .navbar-nav
+{
+    float: right;
+    margin-right: 0;
+    margin-left: auto;
+    padding: 0;
+}
+.smlSec2 img
+{
+    float: right;
+}
+.smlSec1 img
+{
+    float: left;
+}
+.showenDrb .tab-pane li,
+.showenDrb p
+{
+    text-align: right;
+}
+.sendBtn
+{
+    margin-left: 0;
+    margin-right: auto;
+}
+@media only screen and (max-width:992px)
+{
+    .navbar-expand-lg .navbar-nav
+    {
+        float: none;
+    }
+    .showenDrb .tab-pane h2,.navbar-light .navbar-nav .nav-link {
+        text-align: right;
+    }
+    ul.nav.flex-column
+    {
+        padding: 0;
+    }
+}
